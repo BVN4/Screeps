@@ -1,5 +1,13 @@
-module.exports.loop = function () {
+const creepRoles = {
+	Harvester: require('creeps/Harvester')
+};
 
-	console.log('Hello world!');
+module.exports.loop = () => {
+	for(const room of Game.rooms){
 
+		let entities = new Entities(room);
+
+
+
+	}
 }
