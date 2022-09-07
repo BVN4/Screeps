@@ -1,5 +1,5 @@
-const creepRoles = {
-	Harvester: require('creeps/Harvester')
+const roles = {
+	Harvester: require('roles/Harvester')
 };
 
 module.exports.loop = () => {
